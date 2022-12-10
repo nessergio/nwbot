@@ -1,8 +1,8 @@
 #!/bin/bash
-API_ID='5865556293:AAGMp8fhRg4GnOhaVaR0bkUDoawZfu7d7i4'
-CHAT_ID=365473701
-SITE='www.anegworld.com'
-FILE='/tmp/status.nw2'
+API_ID=''
+CHAT_ID=
+SITE='8.8.8.8'
+FILE='/tmp/status.nw'
 status=`ping -c 1 $SITE &> /dev/null && echo success || echo fail`
 old_status=`cat $FILE`
 if [ "$status" != "$old_status" ]; then
