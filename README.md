@@ -10,7 +10,7 @@
    - /setname to change name
 3. Create a new telegram group. Write a simple message there
 4. Add your bot to the group
-5. In browser, go to https://api.telegram.org/bot{{past your api key here}}/getUpdates
+5. In browser, go to https://api.telegram.org/bot{{past_your_api_key_here_delete_bracers}}/getUpdates
    Search for group chat id. It must start with "-". Copy it and paste to nwbot.sh script after CHAT_ID=
 6. Change host address after SITE= in nwbot.sh
 7. Change temporary file path if needed after FILE=
